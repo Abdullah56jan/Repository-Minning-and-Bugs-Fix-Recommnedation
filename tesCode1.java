@@ -1,9 +1,10 @@
-public boolean isAdminUser(User user) {
-    // BUG: If user is null, user.getRole() will throw a NullPointerException immediately
-    String role = user.getRole(); 
-    
-    if (user != null && role.equalsIgnoreCase("ADMIN")) {
-        return true;
+public class StatusManager {
+    public boolean isActive(String status) {
+        // BUG: If 'status' is null, calling .equals() on it
+        // will immediately throw a NullPointerException!
+        if (status.equals("ACTIVE")) {
+            return true;
+        }
+        return false;
     }
-    return false;
 }

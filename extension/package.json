@@ -3,10 +3,10 @@
     "displayName": "Bug Fix Recommender",
     "description": "Recommends Java bug fixes based on 11,000+ real GitHub commits using BM25 retrieval.",
     "version": "0.1.0",
-    "publisher": "itsmrsarfaraz",
+    "publisher": "abdulah",
     "repository": {
         "type": "git",
-        "url": "https://github.com/itsmrsarfaraz/bugfixrecommender.git"
+        "url": "https://github.com/abdullah56jan/bugfixrecommender.git"
     },
     "license": "MIT",
     "engines": {
